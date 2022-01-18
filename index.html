@@ -13,21 +13,31 @@
     <title>Seleccion de color</title>
   </head>
   <body>
-    <div class="container mt-3 text-center">
-      <label for="inputColor" class="form-label">Color picker</label>
-      <input
-        type="color"
-        class="form-control form-control-color w-100"
-        id="inputColor"
-        value="#563d7c"
-        title="Choose your color"
-      />
-      <div class="mt-3">
-          <button class="btn btn-primary w-100" id="btnVisualizar">Visualizar</button>
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-12 col-md-6 col-lg-4">
 
-          <p class="lead mt-3">#COlor</p>
+          <div class="mt-3 text-center">
+            <label for="inputColor" class="form-label"><h2>PALETA DE COLORES</h2></label>
+            <input
+              type="color"
+              class="form-control form-control-color w-100"
+              id="inputColor"
+              value="#563d7c"
+              title="Choose your color"
+            />
+            <div class="mt-3">
+              <button class="btn btn-warning w-100" id="btnVisualizar">
+                <h5>Visualizar</h5>
+              </button>
+              <h5 class="mt-3">Background-color:</h5>
+              <p class="lead mt-3">#</p>
+    
+              <div class="card p-5" style="background-color: #572e94"></div>
+            </div>
+          </div>
+        </div>
 
-          <div class="card p-5" style="background-color: #572E94;"></div>
       </div>
     </div>
     <script
